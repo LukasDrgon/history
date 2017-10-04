@@ -24,10 +24,12 @@ import createHistory from 'history/createBrowserHistory'
 var createHistory = require('history').createBrowserHistory
 ```
 
-The UMD build is also available on [unpkg](https://unpkg.com):
+The UMD build is also available on [unpkg](https://unpkg.com) or [jsDelivr](https://www.jsdelivr.com/package/npm/history):
 
 ```html
 <script src="https://unpkg.com/history/umd/history.min.js"></script>
+<-- or -->
+<script src="https://cdn.jsdelivr.net/npm/history@4/umd/history.min.js"></script>
 ```
 
 You can find the library on `window.History`.
